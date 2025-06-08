@@ -1,3 +1,24 @@
+# CURRENT SESSION STATUS - CODIO MCP SETUP
+**SESSION STATE**: Ready to commit and push MCP updates to claude-code-dev
+
+**COMPLETED**:
+✅ Added MCP servers: Context7, Upstash, GitHub to local config
+✅ Updated .env with Upstash/GitHub credentials (kept in root only)  
+✅ Modified claude-code-dev/setup.sh with core MCP install instructions (context7 + github)
+
+**NEXT STEPS**:
+1. Fix bash environment (currently broken)
+2. Commit current changes with proper message
+3. Copy/push updates to claude-code-dev repo
+4. Test MCP setup in fresh environment
+
+**MCP ARSENAL READY**: Context7 (docs), GitHub (repos), + Upstash (optional)
+**Additional MCPs researched**: Brave Search, Sequential Thinking, Supabase
+
+**USER NOTE**: "WE ARE CODIO" - Ready for coding marathon mode
+
+---
+
 # Claude Project Setup & Scaffold SOPs
 
 @/home/node/.claude/my-project-instructions.md
