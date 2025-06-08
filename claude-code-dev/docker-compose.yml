@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  claude:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: claude-code-dev
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true
