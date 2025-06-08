@@ -1,6 +1,10 @@
-# Claude Code Development Environment Scaffold
+# Web Generation App V1
 
-A production-ready Docker-based development environment for Claude Code, designed to be a reusable scaffold for all future projects.
+A web application generation tool built with Claude Code integration.
+
+## Dependencies
+
+This project is based on the [claude-code-docker-dev](https://github.com/Iamcodio/claude-code-docker-dev) scaffold, which provides a production-ready Docker-based development environment for Claude Code.
 
 ## Features
 
